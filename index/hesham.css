@@ -1,0 +1,48 @@
+/* Reset standaardmarges en -paddings voor het hele document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Voeg een achtergrondkleur en wat opvulling toe aan de body */
+body {
+    background-color: #400202;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Stijl voor de header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stijl voor de secties met projecten */
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Stijl voor de projecttitel */
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Stijl voor de projectbeschrijving */
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Stijl voor de footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,24 @@
+/* Maak van ieder <a> element een block element en geef deze een padding van 2% en marge van 1% */
+article a {
+    display: block;
+    padding: 2%;
+    margin: 1%;
+}
+
+/* Selecteer het <a> element met het title attribuut en geef deze de stijl: border: 5px solid pink */
+a[title] {
+    border: 5px solid pink;
+}
+
+/* Selecteer het <a> element waarbij het href attribuut het woord "contact" bevat, en geef deze de stijl: border: 5px solid orange */
+a[href*="contact"] {
+    border: 5px solid orange;
+}
+
+/* Selecteer het <a> element waarbij het href attribuut begint met het woord "https", en geef deze de stijl: border: 5px solid green */
+a[href^="https"] {
+    border: 5px solid green;
+}
+.hk{
+    font-size: 30px;
+}

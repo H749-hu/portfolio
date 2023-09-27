@@ -1,0 +1,52 @@
+/* Stijl voor standaard links */
+a {
+    color: orange;
+    text-decoration: none; /* Verwijder de standaard onderstreping */
+}
+
+/* Stijl voor bezochte links */
+a:visited {
+    color: green;
+}
+
+/* Stijl voor links bij hover */
+a:hover {
+    text-decoration: underline; /* Voeg onderstreping toe bij hover */
+}
+/* Stijl voor het eerste <p> -element */
+article p:first-child {
+    font-size: 150%;
+    color: red;
+}
+/* Stijl voor even rijen in de tabel */
+table tr:nth-child(even) {
+    background-color: #333;
+    color: white; /* Witte tekst op donkere achtergrond */
+}
+/* Stijl voor standaard links */
+a {
+    color: orange;
+    text-decoration: none; /* Verwijder de standaard onderstreping */
+}
+
+/* Stijl voor bezochte links */
+a:visited {
+    color: rgb(0, 36, 128);
+}
+
+/* Stijl voor links bij hover */
+a:hover {
+    text-decoration: underline; /* Voeg onderstreping toe bij hover */
+}
+
+/* Stijl voor het eerste <p>-element */
+article p:first-child {
+    font-size: 150%;
+    color: red;
+}
+
+/* Stijl voor even rijen in de tabel */
+table tr:nth-child(even) {
+    background-color: #333;
+    color: white; /* Witte tekst op donkere achtergrond */
+}

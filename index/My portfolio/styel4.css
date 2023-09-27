@@ -1,0 +1,21 @@
+/* Maak iedere paragraaf na een h2 element rood */
+h2 + p {
+    color: red;
+}
+
+/* Verwijder de gesloten bullets van de unsorted list met de class list */
+.list {
+    list-style-type: none;
+}
+
+/* Voeg een grijze gesloten border van 1 pixel onder ieder child element van het ul element met class: list */
+.list ul {
+    border-bottom: 1px solid gray;
+}
+
+.qq{
+    border-bottom: 1px solid gray;
+}
+.pp{
+    border-bottom: 1px solid gray;
+}
